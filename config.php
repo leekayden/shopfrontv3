@@ -6,12 +6,12 @@ define('APPLICATION', 'Catalog');
 define('HTTP_SERVER', 'http://localhost/shopfrontv3/');
 
 // DIR
-define('DIR_OPENCART', 'C:/xampp2/htdocs/shopfrontv3/');
+define('DIR_OPENCART', '/shopfrontv3/');
 define('DIR_APPLICATION', DIR_OPENCART . 'catalog/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
 define('DIR_SYSTEM', DIR_OPENCART . 'system/');
-define('DIR_STORAGE', 'C:/xampp2/storage/');
+define('DIR_STORAGE', '/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
