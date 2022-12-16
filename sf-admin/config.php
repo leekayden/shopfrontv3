@@ -3,11 +3,11 @@
 define('APPLICATION', 'Admin');
 
 // HTTP
-define('HTTP_SERVER', 'http://localhost/shopfrontv2/sf-admin/');
-define('HTTP_CATALOG', 'http://localhost/shopfrontv2/');
+define('HTTP_SERVER', 'http://localhost/shopfrontv3/sf-admin/');
+define('HTTP_CATALOG', 'http://localhost/shopfrontv3/');
 
 // DIR
-define('DIR_OPENCART', 'C:/xampp2/htdocs/shopfrontv2/');
+define('DIR_OPENCART', 'C:/xampp2/htdocs/shopfrontv3/');
 define('DIR_APPLICATION', DIR_OPENCART . 'sf-admin/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
