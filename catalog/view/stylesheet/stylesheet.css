@@ -760,7 +760,12 @@ footer h5 {
   font-size: 16px;
   color: #ffffff;
 }
-
 #logoResize{
-  
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px){
+  #logoResize{
+    justify-content: normal;
+  }
 }

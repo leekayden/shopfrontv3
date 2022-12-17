@@ -419,6 +419,8 @@ class Cart {
 			$product_total += $product['quantity'];
 		}
 
+		$product_t = "";
+
 		if ($product_total == 1) {
 			$product_t == "1 item";
 		} else {
