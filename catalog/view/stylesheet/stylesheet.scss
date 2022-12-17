@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Cera Round Pro";
+  src: url(./fonts/cera-round-pro.woff);
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Cera Round Pro', sans-serif;
   font-weight: 400;
   color: #666;
   font-size: 12px;
@@ -498,7 +504,7 @@ footer {
   }
 
   h5 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cera Round Pro';
     font-size: 13px;
     font-weight: bold;
     color: #fff;
