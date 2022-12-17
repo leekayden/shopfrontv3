@@ -409,6 +409,9 @@ class Cart {
 
 		return $product_total;
 	}
+	// int n = getItems()
+	// string noItems = n == 1 ? "item" : "items"
+	// display(n + noItems)
 
 	// public function countProducts(): string {
 	// 	$product_total = 0;
