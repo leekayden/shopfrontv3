@@ -410,7 +410,7 @@ class Cart {
 	// 	return $product_total;
 	// }
 
-	public function countProducts(): str {
+	public function countProducts(): string {
 		$product_total = 0;
 
 		$products = $this->getProducts();
