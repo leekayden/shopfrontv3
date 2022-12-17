@@ -398,7 +398,19 @@ class Cart {
 		return $total;
 	}
 
-	public function countProducts(): int {
+	// public function countProducts(): int {
+	// 	$product_total = 0;
+
+	// 	$products = $this->getProducts();
+
+	// 	foreach ($products as $product) {
+	// 		$product_total += $product['quantity'];
+	// 	}
+
+	// 	return $product_total;
+	// }
+
+	public function countProducts(): str {
 		$product_total = 0;
 
 		$products = $this->getProducts();
@@ -407,7 +419,13 @@ class Cart {
 			$product_total += $product['quantity'];
 		}
 
-		return $product_total;
+		if ($product_total == 1) {
+			$product_t == "1 item";
+		} else {
+			$product_t == (string)$product_total . " items";
+		}
+
+		return $product_t;
 	}
 
 	public function hasProducts(): bool {
