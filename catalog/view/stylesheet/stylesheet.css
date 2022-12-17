@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Cera Round Pro";
+  font-family: "Open Sans", sans-serif;
   src: url(./fonts/cera-round-pro.woff);
 }
 
@@ -147,7 +147,7 @@ table {
   -webkit-box-orient: vertical;
 } */
 body {
-  font-family: "Cera Round Pro", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #666;
   font-size: 12px;
