@@ -106,6 +106,7 @@ label {
 }
 .list-unstyled a {
   text-decoration: none;
+  line-height: 28px;
 }
 .nav-tabs {
   margin-bottom: 15px;
