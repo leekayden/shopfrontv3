@@ -10,7 +10,8 @@ footer {
 a,
 button,
 .price,
-.price-new {
+.price-new,
+.descriptionDiv {
   font-family: "Open Sans", sans-serif !important; /* DO NOT CHANGE */
 }
 
