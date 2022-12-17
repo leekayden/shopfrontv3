@@ -3,7 +3,7 @@
   src: url(./fonts/cera-round-pro.woff);
 }
 
-footer {
+footer a {
   transition: all 0.75s ease-in-out;
 }
 
