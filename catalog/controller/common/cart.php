@@ -13,10 +13,11 @@ class Cart extends \Opencart\System\Engine\Controller {
 		if ($this->customer->isLogged() || !$this->config->get('config_customer_price')) {
 			($this->model_checkout_cart->getTotals)($totals, $taxes, $total);
 		}
-        $num_products = $this->cart->countProducts();
+        // $num_products = $this->cart->countProducts();
+		// $text = (($num_products == 1) ? '1 item' : $num_products . ' items')
 		// $data['text_items'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
-		$data['text_items'] = sprintf($this->language->get('text_items'), $text = (($num_products == 1) ? '1 item' : $num_products . ' items') + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
-        echo $text;
+		$data['text_items'] = sprintf($this->language->get('text_items'), (($this->cart->countProducts() == 1) ? '1 item' : ($this->cart->countProducts()) . ' items') + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
+        // echo $text;
 		// Products
 		$data['products'] = [];
 
