@@ -16,7 +16,7 @@ class Cart extends \Opencart\System\Engine\Controller {
 
 		// $data['text_items'] = sprintf($this->language->get('text_items'), $this->cart->countProducts() + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
 		$data['text_items'] = sprintf($this->language->get('text_items'), (((string)$this->cart->countProducts() == '1') ? ((string)$this->cart->countProducts() . "item") : ((string)$this->cart->countProducts() . "items")) + (isset($this->session->data['vouchers']) ? count($this->session->data['vouchers']) : 0), $this->currency->format($total, $this->session->data['currency']));
-
+        echo (string)$this->cart->countProducts();
 		// Products
 		$data['products'] = [];
 
