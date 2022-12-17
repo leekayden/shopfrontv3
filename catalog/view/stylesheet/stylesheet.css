@@ -3,9 +3,9 @@
   src: url(./fonts/cera-round-pro.woff);
 }
 
-/* footer {
-  font-family: "Cera Round Pro" !important;
-} */
+footer {
+  transition: all 0.75s ease-in-out;
+}
 
 a,
 button,
