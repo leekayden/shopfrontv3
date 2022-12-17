@@ -1,5 +1,5 @@
 <style>
-.description {
+.descriptionDiv {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2; /* number of lines to show */
@@ -13,7 +13,7 @@
     <div class="content">
       <div class="description">
         <h4><a href="{{ href }}">{{ name }}</a></h4>
-        <p>{{ description }}<br/></p>
+        <p class="descriptionDiv">{{ description }}<br/></p>
         {% if price %}
           <div class="price">
             {% if not special %}
