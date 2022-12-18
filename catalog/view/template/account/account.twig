@@ -19,7 +19,7 @@
 	{% endif %}
 	<div class="row">{{ column_left }}
 		<div id="content" class="col">{{ content_top }}
-			<h2>{{ text_my_account }}</h2>
+			<h1>{{ text_my_account }}</h1>
 			<ul class="list-unstyled">
 				<li>
 					<a href="{{ edit }}">{{ text_edit }}</a>
@@ -38,9 +38,9 @@
 				</li>
 			</ul>
 			<br>
-			<h2>
+			<h1>
 				{{ text_my_orders }}
-			</h2>
+			</h1>
 			<ul class="list-unstyled">
 				<li>
 					<a href="{{ order }}">{{ text_order }}</a>
@@ -65,9 +65,9 @@
 			</ul>
 			{% if affiliate %}
 				<br>
-				<h2>
+				<h1>
 					{{ text_my_affiliate }}
-				</h2>
+				</h1>
 				<ul class="list-unstyled">
 					{% if not tracking %}
 						<li>
@@ -84,9 +84,9 @@
 				</ul>
 			{% endif %}
 			<br>
-			<h2>
+			<h1>
 				{{ text_my_newsletter }}
-			</h2>
+			</h1>
 			<ul class="list-unstyled">
 				<li>
 					<a href="{{ newsletter }}">{{ text_newsletter }}</a>
