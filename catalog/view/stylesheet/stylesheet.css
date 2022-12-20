@@ -3,7 +3,7 @@
   src: url(./fonts/cera-round-pro.woff);
 }
 
-nav-link {
+nav-link, .breadcrumb-item {
   font-size: 18px !important;
 }
 
