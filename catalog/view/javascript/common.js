@@ -94,9 +94,9 @@ $(document).ready(function () {
     // Alert Fade
     var oc_alert = function () {
         window.setTimeout(function () {
-            //$('.alert-dismissible').fadeTo(1000, 0, function () {
-            //    $(this).remove();
-            //});
+            $('.alert-dismissible').fadeTo(1000, 0, function () {
+               $(this).remove();
+            });
         }, 7000);
     }
 
