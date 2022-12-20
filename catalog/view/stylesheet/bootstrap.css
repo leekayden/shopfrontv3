@@ -3852,7 +3852,7 @@ textarea.form-control-lg {
   top: 0;
   right: 0;
   /* z-index: 2; */
-  cursor: pointer;
+  cursor: not-allowed;
   padding: 1.25rem 1rem;
 }
 .alert-primary {
