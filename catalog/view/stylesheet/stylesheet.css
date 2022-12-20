@@ -3,6 +3,10 @@
   src: url(./fonts/cera-round-pro.woff);
 }
 
+nav-link {
+  font-size: 18px !important;
+}
+
 footer a {
   transition: all 0.23s ease-in-out;
 }
