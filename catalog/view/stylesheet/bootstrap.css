@@ -2952,7 +2952,7 @@ textarea.form-control-lg {
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 .dropdown-item {
-  font-size: 12px;
+  font-size: 12px !important;
   display: block;
   width: 100%;
   padding: 0.25rem 1rem;
