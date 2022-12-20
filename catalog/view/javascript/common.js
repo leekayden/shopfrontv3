@@ -97,7 +97,7 @@ $(document).ready(function () {
             $('.alert-dismissible').fadeTo(1000, 0, function () {
                $(this).remove();
             });
-        }, 7000);
+        }, 3000);
     }
 
     $(document).on('click', 'button', oc_alert);
