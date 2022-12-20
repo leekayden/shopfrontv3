@@ -20,6 +20,7 @@ $_['text_order']        = 'Order History';
 // $_['text_newsletter']   = 'Newsletter';
 // $_['text_subscription'] = 'Subscriptions';
 
+// Config null
 // $_['text_register']     = null;
 // $_['text_login']        = null;
 // $_['text_logout']       = null;
