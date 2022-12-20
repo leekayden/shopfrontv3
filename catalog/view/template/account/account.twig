@@ -22,7 +22,7 @@
 			{{ success }}</div>
 	{% endif %}
 	<div class="row">{{ column_left }}
-		<div id="content box-outlined" class="col">{{ content_top }}
+		<div id="content" class="col box-outlined">{{ content_top }}
 			<h1>{{ text_my_account }}</h1>
 			<ul class="list-unstyled">
 				<li>
@@ -43,7 +43,7 @@
 			</ul>
 			<br>
 		</div>
-		<div id="content box-outlined" class="col">
+		<div id="content box-outlined box-outlined" class="col">
 			<h1>
 				{{ text_my_orders }}
 			</h1>
@@ -70,9 +70,9 @@
 				</li>
 			</ul>
 		</div>
+		<br>
 		{% if affiliate %}
-			<div id="content box-outlined" class="col">
-				<br>
+			<div id="content box-outlined box-outlined" class="col box-outlined">
 				<h1>
 					{{ text_my_affiliate }}
 				</h1>
@@ -93,7 +93,7 @@
 			</div>
 		{% endif %}
 		<br>
-		<div id="content box-outlined" class="col">
+		<div id="content box-outlined box-outlined" class="col">
 			<h1>
 				{{ text_my_newsletter }}
 			</h1>
