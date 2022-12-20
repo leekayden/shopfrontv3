@@ -3,7 +3,7 @@
 $_['heading_title']           = 'Your Personal Details';
 
 // Text
-$_['text_login']              = 'If you already have an account with us, please login at the <a href="%s"><strong>login page</strong></a>.';
+$_['text_login']              = 'If you already have an account with us, please login at the <a href="%s"><strong>login page</strong></a>. <strong>TESTING IN PROGRESS, THIS FEATURE MIGHT NOT WORK. PLEASE REGISTER FOR AN ACCOUNT AND LOGIN< THEN TRY AGAIN.</strong>';
 $_['text_register']           = 'Register Account';
 $_['text_guest']              = 'Guest Checkout';
 $_['text_payment_address']    = 'Payment Address';
