@@ -11,7 +11,7 @@ $_['text_success']         = 'Success: Your shipping estimate has been applied!'
 // Entry
 $_['entry_country']        = 'Country';
 $_['entry_zone']           = 'Region / State';
-$_['entry_postcode']       = 'Post Code';
+$_['entry_postcode']       = 'Postal Code';
 
 // Error
 $_['error_postcode']       = 'Postcode must be between 2 and 10 characters!';
