@@ -29,7 +29,7 @@ $('#nav-language .dropdown-item').on('click', function (e) {
             }
 
             if (json['error']) {
-                $('#alert').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa-solid fa-circle-exclamation"></i> ' + json['error'] + ' <button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>');
+                $('#alert').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa-solid fa-circle-exclamation"></i> ' + json['error'] + ' </div>');
             }
         },
         error: function (xhr, ajaxOptions, thrownError) {

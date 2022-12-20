@@ -45,7 +45,7 @@ $('#button-save').on('click', function (e) {
 
             if (json['error']) {
                 if (json['error']['warning']) {
-                    $('#modal-opencart .modal-body').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa-solid fa-circle-exclamation"></i> ' + json['error']['warning'] + ' <button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>');
+                    $('#modal-opencart .modal-body').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa-solid fa-circle-exclamation"></i> ' + json['error']['warning'] + ' </div>');
                 }
 
                 for (key in json['error']) {
@@ -56,7 +56,7 @@ $('#button-save').on('click', function (e) {
             }
 
             if (json['success']) {
-                $('#modal-  opencart .modal-body').prepend('<div class="alert alert-success alert-dismissible"><i class="fa-solid fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>');
+                $('#modal-  opencart .modal-body').prepend('<div class="alert alert-success alert-dismissible"><i class="fa-solid fa-check-circle"></i> ' + json['success'] + ' </div>');
 
                 window.location.reload();
             }

@@ -74,7 +74,7 @@ $('#form-review').on('submit', function (e) {
 
             if (json['error']) {
               if (json['error']['warning']) {
-                  $('#alert').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa-solid fa-circle-exclamation"></i> ' + json['error']['warning'] + ' <button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>');
+                  $('#alert').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa-solid fa-circle-exclamation"></i> ' + json['error']['warning'] + ' </div>');
               }
 
               for (key in json['error']) {
@@ -84,7 +84,7 @@ $('#form-review').on('submit', function (e) {
             }
 
             if (json['success']) {
-                $('#alert').prepend('<div class="alert alert-success alert-dismissible"><i class="fa-solid fa-circle-exclamation"></i> ' + json['success'] + ' <button type="button" class="btn-close" data-bs-dismiss="alert"></button></div>');
+                $('#alert').prepend('<div class="alert alert-success alert-dismissible"><i class="fa-solid fa-circle-exclamation"></i> ' + json['success'] + ' </div>');
 
                 $('#input-text').val('');
                 $('#input-rating input[type=\'radio\']').prop('checked', false);
