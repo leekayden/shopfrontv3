@@ -3,6 +3,10 @@
 	.list-unstyled a {
 		font-size: 18px;
 	}
+	.box-outlined {
+		border-radius: 2.5px;
+		border: 1px solid gray;
+	}
 </style>
 <div id="account-account" class="container" style="line-height:40px;">
 	<ul class="breadcrumb">
@@ -18,7 +22,7 @@
 			{{ success }}</div>
 	{% endif %}
 	<div class="row">{{ column_left }}
-		<div id="content" class="col">{{ content_top }}
+		<div id="content box-outlined" class="col">{{ content_top }}
 			<h1>{{ text_my_account }}</h1>
 			<ul class="list-unstyled">
 				<li>
@@ -38,6 +42,8 @@
 				</li>
 			</ul>
 			<br>
+		</div>
+		<div id="content box-outlined" class="col">
 			<h1>
 				{{ text_my_orders }}
 			</h1>
@@ -63,7 +69,9 @@
 					<a href="{{ transaction }}">{{ text_transaction }}</a>
 				</li>
 			</ul>
-			{% if affiliate %}
+		</div>
+		{% if affiliate %}
+			<div id="content box-outlined" class="col">
 				<br>
 				<h1>
 					{{ text_my_affiliate }}
@@ -82,8 +90,10 @@
 						</li>
 					{% endif %}
 				</ul>
-			{% endif %}
-			<br>
+			</div>
+		{% endif %}
+		<br>
+		<div id="content box-outlined" class="col">
 			<h1>
 				{{ text_my_newsletter }}
 			</h1>
