@@ -836,6 +836,7 @@ footer h5 {
 #display-control #compare-total.a {
   margin-top: -2px;
   padding: 0.35rem 0.565rem;
+  display: inline;
 }
 #product-product h1 {
   margin-top: 20px;
